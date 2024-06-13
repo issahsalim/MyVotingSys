@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </tbody>  
         </table>
         <div class="d-flex justify-content-center "><button class="btn btn-primary" onClick='goBack()'>
-        <a href="../index.html" class="class-link text-white t">Back</a></button></div>
+        <a href="index.html" class="class-link text-white t">Back</a></button></div>
         `
         render.style.display = "none";
     })

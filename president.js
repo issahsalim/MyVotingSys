@@ -1,24 +1,24 @@
-
+//RENDER_CANDIDATE ARRAY
 const RenderCandidate = [
     {
-        name: "issah salim",
-        image: "../img/83.jpg",
+        name: "William Rockson",
+        image: "/26.jpg", 
         vote: 0,
-    },
+    }, 
     {
-        name: "issah salima",
-        image: "../img/42.jpg",
+        name: "Bronya David",
+        image: "/44.jpg",
         vote: 0,
 
     },
     {
-        name: "kadija",
-        image: "../img/26.jpg",
+        name: "Calvin Grrr",
+        image: "/17.jpg",
         vote: 0,
     },
     {
-        name: "mummy",
-        image: "../img/17.jpg",
+        name: "Issah Boresa",
+        image: "/42.jpg",
         vote: 0,
 
     },
@@ -27,7 +27,7 @@ const RenderCandidate = [
 let display = '';
 RenderCandidate.forEach(candidate => {
     display += `
-       
+
         <div class="box d-flex justify-content-center">
             <div class="candidate"> 
                 <input type="radio" id="${candidate.name}" name="radio" class="m-2"> 
@@ -41,7 +41,10 @@ RenderCandidate.forEach(candidate => {
 
 
 const render = document.querySelector('.render');
-render.innerHTML = display 
+render.innerHTML = display;
+
 
  
+
+
 
