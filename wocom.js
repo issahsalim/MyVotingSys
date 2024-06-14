@@ -27,12 +27,17 @@ let display = '';
 RenderCandidate.forEach(candidate => {
     display += `
        
-        <div class="box d-flex justify-content-center"> 
-            <div class="candidate">  
+         <div class="box d-flex justify-content-center">
+            <div class="candidate d-flex m-2">
+
+             <div class="card col-3">
+                <img src="${candidate.image}" class="w-4">
+             </div> 
+             <div>
                 <input type="radio" id="${candidate.name}" name="radio" class="m-2"> 
                 <label class="name" for="${candidate.name}">${candidate.name}</label>
-                <span><a href="${candidate.image}" class="">image</a></span> 
-            </div>   
+                </div>
+             </div>   
          </div>
        
     `;
