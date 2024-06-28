@@ -1,23 +1,23 @@
 const RenderCandidate = [
     {
         name: "Issah Jamilatu",
-        image: "/83.jpg",
+        image: "../images/83.jpg",
         vote: 0, 
     },
     {
         name: "Issah Aisha",
-        image: "/42.jpg",
+        image: "../images/42.jpg",
         vote: 0,
 
     },
     {
         name: "Issah kadija",
-        image: "/26.jpg",
+        image: "../images/26.jpg",
         vote: 0,
     },
     {
         name: "Issah Mummy",
-        image: "/17.jpg",
+        image: "../images/17.jpg", 
         vote: 0,
 
     },

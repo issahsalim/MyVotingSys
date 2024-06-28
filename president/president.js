@@ -2,23 +2,23 @@
 const RenderCandidate = [
     {
         name: "William Rockson",
-        image: "/26.jpg",
+        image: "../images//26.jpg",
         vote: 0,
     },
     {
         name: "Bronya David",
-        image: "/44.jpg",
+        image: "../images//44.jpg",
         vote: 0,
 
     },
     {
         name: "Calvin Grrr",
-        image: "/17.jpg",
+        image: "../images/17.jpg",
         vote: 0,
     },
     {
         name: "Issah Boresa",
-        image: "/42.jpg",
+        image: "../images/42.jpg",
         vote: 0,
 
     },

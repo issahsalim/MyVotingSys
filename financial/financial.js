@@ -2,23 +2,24 @@
 const RenderCandidate = [
     {
         name: "issah salim",
-        image: "/83.jpg",
+        image: "../images/83.jpg",
         vote: 0,
     },
     {
         name: "issah salima",
-        image: "/42.jpg",
+        image: "../images/42.jpg",
         vote: 0,
 
     },
+
     {
         name: "kadija",
-        image: "/26.jpg",
+        image: "../images/26.jpg",
         vote: 0,
     },
     {
         name: "mummy",
-        image: "/17.jpg",
+        image: "../images/17.jpg",
         vote: 0,
 
     },
@@ -45,7 +46,7 @@ RenderCandidate.forEach(candidate => {
 
 
 const render = document.querySelector('.render');
-render.innerHTML = display 
+render.innerHTML = display
 
- 
+
 
